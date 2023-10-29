@@ -2,12 +2,12 @@ package worker
 
 import (
 	"context"
-
 	"github.com/go-redis/redis/v8"
+
+	db "banking_merchant/db/sqlc"
+	"banking_merchant/mail"
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog/log"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/mail"
 )
 
 const (

@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"banking_merchant/token"
+	"banking_merchant/util"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/token"
-	"github.com/techschool/simplebank/util"
 )
 
 func addAuthorization(

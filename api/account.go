@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
+	db "banking_merchant/db/sqlc"
+	"banking_merchant/token"
 	"github.com/gin-gonic/gin"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/token"
 )
 
 type createAccountRequest struct {

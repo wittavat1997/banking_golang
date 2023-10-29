@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
+	db "banking_merchant/db/sqlc"
 	"github.com/gin-gonic/gin"
-	db "github.com/techschool/simplebank/db/sqlc"
 )
 
 type renewAccessTokenRequest struct {

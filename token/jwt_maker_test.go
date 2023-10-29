@@ -1,12 +1,12 @@
 package token
 
 import (
+	"github.com/dgrijalva/jwt-go"
 	"testing"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"banking_merchant/util"
 	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/util"
 )
 
 func TestJWTMaker(t *testing.T) {
